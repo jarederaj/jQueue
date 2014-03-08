@@ -33,7 +33,7 @@
             });
         },
 
-        init: function(object, key, callback, args) {
+        listen: function(object, key, callback, args) {
             var id = this.guid();
             this.ids[id] = id;
             this.objects[id] = object;
